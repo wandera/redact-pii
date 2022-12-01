@@ -7,7 +7,6 @@
   "scripts": {
     "build": "del lib && tsc --pretty",
     "typecheck": "tsc --noEmit",
-    "prepublishOnly": "npm run verify_all && npm run build",
     "verify_all": "npm run typecheck && npm test && npm run test_prettier",
     "test": "jest",
     "test_prettier": "prettier './+(src|test)/**/*.+(js|ts|tsx)' --list-different",
