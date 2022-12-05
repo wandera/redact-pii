@@ -1,6 +1,6 @@
 {
   "name": "@wandera/redact-pii",
-  "version": "4.7.0",
+  "version": "0.0.1",
   "description": "Remove personally identifiable information from text.",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -15,7 +15,10 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
-  "repository": "git@github.com:wandera/redact-pii.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wandera/redact-pii.git"
+  },
   "author": "Christian Theilemann <christian@solvvy.com>",
   "license": "MIT",
   "dependencies": {
