@@ -15,10 +15,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/solvvy/redact-pii.git"
-  },
+  "repository": "git@github.com:wandera/redact-pii.git",
   "author": "Christian Theilemann <christian@solvvy.com>",
   "license": "MIT",
   "dependencies": {
