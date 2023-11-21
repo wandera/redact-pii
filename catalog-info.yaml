@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: redact-pii
+  description: Remove personally identifiable information from text. This is a fork of redact-pii.
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: 'wandera/redact-pii'
+    jira/project-key: JSC
+  tags:
+  - javascript
+  - typescript
+spec:
+  type: library
+  lifecycle: production
+  owner: webchapter
+  system: Protect
