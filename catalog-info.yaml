@@ -13,5 +13,5 @@ metadata:
 spec:
   type: library
   lifecycle: production
-  owner: webchapter
+  owner: jsc-webchapter
   system: Protect
