@@ -14,4 +14,4 @@ spec:
   type: library
   lifecycle: production
   owner: jsc-webchapter
-  system: Protect
+  system: jsc-portal
